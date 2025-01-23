@@ -36,6 +36,42 @@ a:hover {
     text-decoration: underline;
 }
 
+/* article  */
+.article {
+    background-color: var(--base02);
+    color: var(--base0F);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.article p {
+    text-indent: 30px;
+}
+
+/* quote */ 
+.italic {
+    font-style: italic;
+}
+
+/* About  */
+.about {
+    background-color: var(--base02);
+    color: var(--base0F);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* contact  */
+.contact {
+    background-color: var(--base02);
+    color: var(--base0F);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
 /* Container */
 .container {
     max-width: 1200px;

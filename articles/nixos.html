@@ -17,5 +17,28 @@
       </nav>
     </div>
   </header>
+    <main class="container">
+      <article class="article">
+        <h1>NixOS: The Declarative Linux</h1>
+        <p><span class="italic">"ironic… we cared so much about reproducibility, that we failed to reproduce ourselves"</span> -seein_this_shit </p>
+        <p>To start writing about NixOS, I need to first talk about Linux. What pushed me on my journey with Linux was my desire to code. Coming from a background where I was primarily using proprietary operating systems (Windows10), I found the limitations frustrating, especially when it came to flexibility, customizability, and control over my development environment. Ideally, I wanted a system that allowed me to explore my ideas freely and develop software without running into unnecessary roadblocks. That’s when I found Linux.</p>
+
+        <p>Initially, I dabbled with Arch linux. Ironically I found myself using WSL (Windows Subsystem for Linux) with Arch more than Arch linux itself. There was something about the experience of configuring and managing my system that felt incomplete. It wasn't just about getting things to work—it was about making everything fit together in the way I wanted. I wanted a system that I could fully own and control, down to the smallest detail, and that’s when I encountered NixOS.</p>
+
+        <p>What sets NixOS apart from the crowd of other Linux distributions is its declarative configuration. This means that instead of manually installing and configuring software with various package managers, you define the entire state of your system in a single file <code>configuration.nix</code>. With NixOS, your system becomes a series of reproducible states. Need to reinstall or migrate to another machine? Simply apply the same configuration file, and you have the exact same setup. This is huge.</p>
+
+        <p>This approach solves one of the biggest problems with traditional package management—dependency hell. In NixOS, each package is isolated, meaning you can run different versions of the same software without conflict. It’s a dream for developers who often need specific versions of tools or libraries for different projects. The Nix package manager guarantees that these environments are reproducible, and everything you install is built in isolation, which adds a level of security and reliability that’s hard to find elsewhere.</p>
+
+        <p>However, the true beauty of NixOS lies in the philosophy behind it. The idea of declarative configuration not only makes managing a Linux system more predictable, but it also allows you to automate everything. Want to install a new service, tweak some settings, or roll back to a previous configuration? With NixOS, it’s just a matter of modifying your config and re-applying it. The declarative nature means you can version-control your system’s state, ensuring you can always revert to a known working setup or easily replicate it elsewhere.</p>
+
+        <p>But it’s not without its challenges. NixOS is not your typical Linux distribution. It comes with a learning curve, especially when it comes to understanding its unique approach to package management and system configuration. The first time I installed NixOS, I was both excited and overwhelmed. There’s not much documentation and there's a lot of hands-on configuration to get it up and running. But once you get it just right, past the inital learning phase, the power and flexibility it offers are hard to beat</p>
+
+        <p>For me, NixOS has become the perfect environment for coding and developing. It provides the stability and control I need while allowing me to easily tweak and customize my system whenever I want. The declarative nature of the operating system fits perfectly with my desire for reproducibility—whether it’s for my development environments, tools, or even my daily use of the system itself.</p>
+
+        <p>If you’re someone who wants total control over your environment, whether it’s for development, system administration, or just general tinkering, NixOS is a distribution worth exploring. Sure, it might not be the easiest to get started with, but once you understand the concepts and embrace the declarative mindset, you’ll see just how powerful and flexible this system can be.</p>
+
+        <p>In the end, NixOS taught me that reproducibility isn’t just about making the system the same across different machines—it’s about creating a system that reflects <em>you</em>, your workflow, and your goals. And in a world where technology is constantly evolving, there’s something incredibly satisfying about having a system that can evolve with you, in a predictable and controlled way.</p>
+        <article>
+    </main> 
 </body>
 </html>
