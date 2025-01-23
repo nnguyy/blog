@@ -113,11 +113,19 @@ header nav a:hover {
 
 .blog-post {
     background-color: var(--base01);
-    color: var(--base05);
+    color: var(--base09);
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
+}
+
+.blog-post h3{
+    color: var(--base05);
+}
+
+.blog-post p{
+    color: var(--base0F);
 }
 
 .blog-post:hover {
